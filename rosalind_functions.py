@@ -1,3 +1,4 @@
+#DNA
 def base_count(x):
     dict_nuc_count = {}
     for i in x:
@@ -7,3 +8,5 @@ def base_count(x):
             dict_nuc_count[i] = 1
     ret_ans = str(dict_nuc_count['A']) + ' ' + str(dict_nuc_count['C']) + ' ' + str(dict_nuc_count['G']) + ' ' + str(dict_nuc_count['T'])
     return ret_ans
+
+#RNA
