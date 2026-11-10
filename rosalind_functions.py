@@ -13,3 +13,8 @@ def base_count(x):
 def DNA_txn(x):
     RNA = x.replace('T', 'U')
     return RNA
+
+#REVC
+def rev_compl(x):
+    rev_compl = x.replace('A', 't').replace('T', 'a').replace('C', 'g').replace('G', 'c').upper()[::-1]
+    return rev_compl
