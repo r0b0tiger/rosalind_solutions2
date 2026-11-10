@@ -10,3 +10,6 @@ def base_count(x):
     return ret_ans
 
 #RNA
+def DNA_txn(x):
+    RNA = x.replace('T', 'U')
+    return RNA
